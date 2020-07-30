@@ -1,0 +1,21 @@
+@charset "utf-8"; 
+
+/* IDセレクタ */
+#div-a {
+    color: black;
+}
+
+/* カーソルが載っている要素 */
+a:hover {
+    font-size: 2em;
+}
+
+/* 未訪問のリンク */
+a:link {
+    color: blue;
+}
+
+/* 訪問済みのリンク */
+a:visited {
+    color: red;
+} 
